@@ -12,7 +12,7 @@ const customJestConfig = {
   testEnvironment: 'jest-environment-jsdom',
 
   moduleNameMapper: {
-    "@/(.*)": "<rootDir>/components/$1",
+    "@/(.*)": "<rootDir>/src/$1",
   },
 };
 
